@@ -13,5 +13,6 @@ UCLASS()
 class PVZ_USFX_LAB02_API AHordaDificilFactory : public AHordaFactory
 {
 	GENERATED_BODY()
-	
+public:
+	virtual AZombie* formarHorda(int indicePosicion) override;
 };
